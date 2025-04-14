@@ -1,0 +1,7 @@
+export * from './HeroSection'
+export * from './AboutSection'
+export * from './ExperienceSection'
+export * from './ServicesSection'
+export * from './PortfolioSection'
+export * from './BooksSection'
+export * from './ContactSection'
