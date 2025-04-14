@@ -892,7 +892,7 @@ export default function Home() {
             ))}
           </div>
 
-          <div className="mt-16">
+          <div className="mt-16 hidden">
             <h2 className="text-2xl font-bold text-center mb-6">Co-Authored Works</h2>
             <p className="text-muted-foreground max-w-[58rem] mx-auto text-center">
               I've contributed to over 25 co-authored books, including 7 World Record Winning Books, and have been
@@ -1066,7 +1066,7 @@ export default function Home() {
               </Link>
             </motion.div>
             <motion.div whileHover={{ y: -3, scale: 1.1 }}>
-              <Link href="email:to:sahithyabalasubramaniam@gmail.com" target="_blank" className="text-muted-foreground hover:text-foreground">
+              <Link href="mailto:sahithyabalasubramaniam@gmail.com" target="_blank" className="text-muted-foreground hover:text-foreground">
                 <Mail className="h-5 w-5" />
                 <span className="sr-only">Email</span>
               </Link>
