@@ -1,4 +1,5 @@
 "use client"
+import Image from "next/image"
 
 import Link from "next/link"
 import { motion } from "framer-motion"
@@ -36,7 +37,7 @@ export default function CoAuthoredBooks() {
               className="text-xl font-bold bg-gradient-to-r from-[#8b5cf6] to-[#c084fc] bg-clip-text text-transparent"
               initial={{ opacity: 0, x: -20 }}
               animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.5 }}
+              transition={{ duration: 1.0 }}
             >
               Sahithya B A
             </motion.span>
@@ -68,17 +69,26 @@ export default function CoAuthoredBooks() {
           initial="hidden"
           animate="visible"
         >
-          {coAuthoredBooks.map((book, index) => (
-            <motion.div key={index} variants={fadeIn}>
-              <CoAuthoredBookCard
-                title={book.title}
-                description={book.description}
-                publisher={book.publisher}
-                year={book.year}
-                achievement={book.achievement}
-              />
-            </motion.div>
-          ))}
+         {coAuthoredBooks.map((book, index) => (
+        <motion.div
+            key={index}
+            variants={fadeIn}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: false, amount: 0.5 }}
+            whileHover={{ scale: 1.03, opacity: 1 }}
+          >
+            <CoAuthoredBookCard
+              title={book.title}
+              description={book.description}
+              publisher={book.publisher}
+              year={book.year}
+              achievement={book.achievement}
+              imageUrl={book.imageUrl}
+            />
+          </motion.div>
+        ))}
+
         </motion.div>
       </main>
     </div>
@@ -91,17 +101,30 @@ function CoAuthoredBookCard({
   publisher,
   year,
   achievement,
+  imageUrl,
 }: {
   title: string
   description: string
   publisher: string
   year: string
   achievement?: string
+  imageUrl:string
 }) {
   return (
-    <Card className="h-full hover:shadow-md transition-shadow duration-300 overflow-hidden">
-      <CardContent className="p-6">
-        <div className="flex items-start gap-4">
+    <Card className="h-full hover:shadow-md transition-shadow duration-300 overflow-hidden cursor-pointer">
+  {imageUrl && (
+    <div className="p-4 pt-6">
+    <Image
+      src={imageUrl}
+      alt={title}
+      width={800}
+      height={300}
+      className="w-full h-[350px] object-contain rounded-md"
+    />
+    </div>
+  )}
+  <CardContent className="p-6">
+    <div className="flex items-start gap-4">
           <div className="rounded-full bg-gradient-to-r from-[#8b5cf6]/10 to-[#c084fc]/10 p-3 flex-shrink-0">
             <BookOpen className="h-6 w-6 text-[#8b5cf6]" />
           </div>
@@ -138,6 +161,8 @@ const coAuthoredBooks = [
     publisher: "The League of Poets",
     year: "2020",
     achievement: "Top 1000 Globally",
+    imageUrl:"/images/co-authored-books/Songs of peace.png",
+    featured: true,
   },
   {
     title: "World Record Book 1",
@@ -145,6 +170,8 @@ const coAuthoredBooks = [
     publisher: "Global Writers Association",
     year: "2021",
     achievement: "World Record Winner",
+    imageUrl:"/images/co-authored-books/Authentic Souls.png",
+    featured: true,
   },
   {
     title: "World Record Book 2",
@@ -152,6 +179,8 @@ const coAuthoredBooks = [
     publisher: "Global Writers Association",
     year: "2021",
     achievement: "World Record Winner",
+    imageUrl:"/images/co-authored-books/When I come across a writer.png",
+    featured: true,
   },
   {
     title: "World Record Book 3",
@@ -159,6 +188,8 @@ const coAuthoredBooks = [
     publisher: "Global Writers Association",
     year: "2022",
     achievement: "World Record Winner",
+    imageUrl:"/images/co-authored-books/Scripted Tales of memories.png",
+    featured: true,
   },
   {
     title: "World Record Book 4",
@@ -166,6 +197,8 @@ const coAuthoredBooks = [
     publisher: "Global Writers Association",
     year: "2022",
     achievement: "World Record Winner",
+    imageUrl:"/images/co-authored-books/Dignified Phrases.png",
+    featured: true,
   },
   {
     title: "World Record Book 5",
@@ -173,6 +206,8 @@ const coAuthoredBooks = [
     publisher: "Global Writers Association",
     year: "2023",
     achievement: "World Record Winner",
+    imageUrl:"/images/co-authored-books/Moon and Star Lover.png",
+    featured: true,
   },
   {
     title: "World Record Book 6",
@@ -180,6 +215,8 @@ const coAuthoredBooks = [
     publisher: "Global Writers Association",
     year: "2023",
     achievement: "World Record Winner",
+    imageUrl:"/images/co-authored-books/Scripted Tales of friendship.png",
+    featured: true,
   },
   {
     title: "World Record Book 7",
@@ -187,30 +224,40 @@ const coAuthoredBooks = [
     publisher: "Global Writers Association",
     year: "2024",
     achievement: "World Record Winner",
+    imageUrl:"/images/co-authored-books/Stardust.png",
+    featured: true,
   },
   {
     title: "Collaborative Anthology 1",
     description: "A themed collection exploring contemporary social issues through multiple perspectives.",
     publisher: "Literary Press",
     year: "2020",
+    imageUrl:"/images/co-authored-books/Reviever.png",
+    featured: true,
   },
   {
     title: "Collaborative Anthology 2",
     description: "An exploration of human emotions and experiences through collaborative storytelling.",
     publisher: "Creative Writing Collective",
     year: "2021",
+    imageUrl:"/images/co-authored-books/Open Letter To Self.png",
+    featured: true,
   },
   {
     title: "Collaborative Anthology 3",
     description: "A multi-author work examining the complexities of modern relationships.",
     publisher: "Modern Writers Guild",
     year: "2022",
+    imageUrl:"/images/co-authored-books/Spring Drizzle.png",
+    featured: true,
   },
   {
     title: "Collaborative Anthology 4",
     description: "A diverse collection of voices addressing environmental concerns and sustainability.",
     publisher: "Green Earth Publications",
     year: "2022",
+    imageUrl:"/images/co-authored-books/Life of Adventures.png",
+    featured: true,
   },
 ]
 
