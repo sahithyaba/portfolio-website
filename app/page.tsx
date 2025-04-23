@@ -892,7 +892,7 @@ export default function Home() {
             ))}
           </div>
 
-          <div className="mt-16 hidden">
+          <div className="mt-16 ">
             <h2 className="text-2xl font-bold text-center mb-6">Co-Authored Works</h2>
             <p className="text-muted-foreground max-w-[58rem] mx-auto text-center">
               I've contributed to over 25 co-authored books, including 7 World Record Winning Books, and have been

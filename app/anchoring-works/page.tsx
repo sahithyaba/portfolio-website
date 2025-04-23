@@ -109,7 +109,7 @@ export default function AnchoringWorks() {
                       <div className="md:w-1/3">
                         <div className="rounded-lg overflow-hidden">
                           <Image
-                            src="/placeholder.svg?height=300&width=300"
+                            src="/images/anchoring/DSC01046.jpg"
                             alt="Sahithya Versatile's Voices"
                             width={300}
                             height={300}
@@ -329,7 +329,7 @@ const liveEvents = [
     location: "Chennai Convention Center",
     audience: "3,500+ attendees",
     highlight: "Flagship Event",
-    imageUrl: "/placeholder.svg?height=200&width=300",
+    imageUrl: "/images/anchoring/DSC_0476.JPG",
   },
   {
     title: "Women in Tech Summit",
@@ -338,7 +338,7 @@ const liveEvents = [
     location: "Tech Park Auditorium",
     audience: "1,200+ attendees",
     highlight: "Featured Event",
-    imageUrl: "/placeholder.svg?height=200&width=300",
+    imageUrl: "/images/anchoring/IMG-20241214-WA0004.jpg",
   },
   {
     title: "College Cultural Festival",
@@ -347,7 +347,7 @@ const liveEvents = [
     location: "University Campus",
     audience: "4,500+ attendees",
     highlight: "Multi-day Event",
-    imageUrl: "/placeholder.svg?height=200&width=300",
+    imageUrl: "/images/anchoring/0C5A7574.JPG",
   },
   {
     title: "Startup Pitch Competition",
@@ -356,7 +356,7 @@ const liveEvents = [
     location: "Innovation Hub",
     audience: "500+ attendees",
     highlight: "High-profile Judges",
-    imageUrl: "/placeholder.svg?height=200&width=300",
+    imageUrl: "/images/anchoring/IMG-20250317-WA0021.jpg",
   },
   {
     title: "Literary Festival",
@@ -364,7 +364,7 @@ const liveEvents = [
     date: "September 2022",
     location: "City Central Library",
     audience: "800+ attendees",
-    imageUrl: "/placeholder.svg?height=200&width=300",
+    imageUrl: "/images/anchoring/IMG-20221104-WA0209.jpg",
   },
   {
     title: "Technical Symposium",
@@ -372,7 +372,7 @@ const liveEvents = [
     date: "August 2021",
     location: "Engineering College",
     audience: "2,000+ attendees",
-    imageUrl: "/placeholder.svg?height=200&width=300",
+    imageUrl: "/images/anchoring/mic.jpg",
   },
 ]
 
@@ -416,7 +416,7 @@ const corporateEvents = [
     audience: "250+ executives",
     company: "Fortune 500 Technology Company",
     highlight: "Executive Event",
-    imageUrl: "/placeholder.svg?height=200&width=300",
+    imageUrl: "/images/anchoring/WhatsApp Image 2024-02-19 at 14.37.27_2b336b33.jpg",
   },
   {
     title: "Product Launch Event",
@@ -426,7 +426,7 @@ const corporateEvents = [
     audience: "500+ attendees",
     company: "Leading Software Company",
     highlight: "Media Coverage",
-    imageUrl: "/placeholder.svg?height=200&width=300",
+    imageUrl: "/images/anchoring/IMG-20250127-WA0010.jpg",
   },
   {
     title: "Employee Recognition Gala",
@@ -435,7 +435,7 @@ const corporateEvents = [
     location: "Five-star Hotel",
     audience: "300+ employees",
     company: "Multinational Corporation",
-    imageUrl: "/placeholder.svg?height=200&width=300",
+    imageUrl: "/images/anchoring/DSC01046.jpg",
   },
   {
     title: "Client Appreciation Event",
@@ -444,7 +444,7 @@ const corporateEvents = [
     location: "Exclusive Venue",
     audience: "150+ VIP clients",
     company: "Financial Services Firm",
-    imageUrl: "/placeholder.svg?height=200&width=300",
+    imageUrl: "/images/anchoring/IMG-20250127-WA0007.jpg",
   },
 ]
 
