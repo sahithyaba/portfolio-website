@@ -329,7 +329,7 @@ const liveEvents = [
     location: "Chennai Convention Center",
     audience: "3,500+ attendees",
     highlight: "Flagship Event",
-    imageUrl: "/images/anchoring/DSC_0476.JPG",
+    imageUrl: "/images/anchoring/0C5A7574.JPG",
   },
   {
     title: "Women in Tech Summit",
@@ -340,6 +340,8 @@ const liveEvents = [
     highlight: "Featured Event",
     imageUrl: "/images/anchoring/IMG-20241214-WA0004.jpg",
   },
+  
+  
   {
     title: "College Cultural Festival",
     description: "Main stage host for the three-day cultural extravaganza featuring performances and competitions.",
@@ -348,6 +350,42 @@ const liveEvents = [
     audience: "4,500+ attendees",
     highlight: "Multi-day Event",
     imageUrl: "/images/anchoring/0C5A7574.JPG",
+  },
+  {
+    title: "College Cultural Festival",
+    description: "Main stage host for the three-day cultural extravaganza featuring performances and competitions.",
+    date: "February 2022",
+    location: "University Campus",
+    audience: "4,500+ attendees",
+    highlight: "Multi-day Event",
+    imageUrl: "/images/anchoring/1Q0A1032.JPG",
+  },
+  {
+    title: "College Cultural Festival",
+    description: "Main stage host for the three-day cultural extravaganza featuring performances and competitions.",
+    date: "February 2022",
+    location: "University Campus",
+    audience: "4,500+ attendees",
+    highlight: "Multi-day Event",
+    imageUrl: "/images/anchoring/DSC01289.JPG",
+  },
+  {
+    title: "College Cultural Festival",
+    description: "Main stage host for the three-day cultural extravaganza featuring performances and competitions.",
+    date: "February 2022",
+    location: "University Campus",
+    audience: "4,500+ attendees",
+    highlight: "Multi-day Event",
+    imageUrl: "/images/anchoring/IMG-20250404-WA0028.jpg",
+  },
+  {
+    title: "Startup Pitch Competition",
+    description: "Hosted the pitch event where startups presented their ideas to potential investors.",
+    date: "November 2022",
+    location: "Innovation Hub",
+    audience: "500+ attendees",
+    highlight: "High-profile Judges",
+    imageUrl: "/images/anchoring/IMG-20220325-WA0003.jpg",
   },
   {
     title: "Startup Pitch Competition",
@@ -366,6 +404,7 @@ const liveEvents = [
     audience: "800+ attendees",
     imageUrl: "/images/anchoring/IMG-20221104-WA0209.jpg",
   },
+  
   {
     title: "Technical Symposium",
     description: "Hosted the opening and closing ceremonies plus technical competitions.",
@@ -409,14 +448,43 @@ const podcastEpisodes = [
 const corporateEvents = [
   {
     title: "Annual Leadership Summit",
-    description:
-      "Hosted the company's flagship leadership event featuring executive presentations and strategy sessions.",
+    description:"Hosted the company's flagship leadership event featuring executive presentations and strategy sessions.",
     date: "December 2023",
     location: "Corporate Headquarters",
     audience: "250+ executives",
     company: "Fortune 500 Technology Company",
     highlight: "Executive Event",
     imageUrl: "/images/anchoring/WhatsApp Image 2024-02-19 at 14.37.27_2b336b33.jpg",
+  },
+  {
+    title: "Annual Leadership Summit",
+    description:"Hosted the company's flagship leadership event featuring executive presentations and strategy sessions.",
+    date: "December 2023",
+    location: "Corporate Headquarters",
+    audience: "250+ executives",
+    company: "Fortune 500 Technology Company",
+    highlight: "Executive Event",
+    imageUrl: "/images/anchoring/IMG-20250317-WA0021.jpg",
+  },
+  {
+    title: "Annual Leadership Summit",
+    description:"Hosted the company's flagship leadership event featuring executive presentations and strategy sessions.",
+    date: "December 2023",
+    location: "Corporate Headquarters",
+    audience: "250+ executives",
+    company: "Fortune 500 Technology Company",
+    highlight: "Executive Event",
+    imageUrl: "/images/anchoring/IMG-20250308-WA0061.jpg",
+  },
+  {
+    title: "Annual Leadership Summit",
+    description:"Hosted the company's flagship leadership event featuring executive presentations and strategy sessions.",
+    date: "December 2023",
+    location: "Corporate Headquarters",
+    audience: "250+ executives",
+    company: "Fortune 500 Technology Company",
+    highlight: "Executive Event",
+    imageUrl: "/images/anchoring/IMG-20250308-WA0049.jpg",
   },
   {
     title: "Product Launch Event",
@@ -427,6 +495,17 @@ const corporateEvents = [
     company: "Leading Software Company",
     highlight: "Media Coverage",
     imageUrl: "/images/anchoring/IMG-20250127-WA0010.jpg",
+   
+  },
+  {
+    title: "Product Launch Event",
+    description: "Emceed the launch of a major new product line with live demonstrations and customer testimonials.",
+    date: "October 2023",
+    location: "Luxury Hotel Ballroom",
+    audience: "500+ attendees",
+    company: "Leading Software Company",
+    highlight: "Media Coverage",
+    imageUrl: "/images/anchoring/IMG-20250127-WA0008.jpg",
   },
   {
     title: "Employee Recognition Gala",
@@ -435,7 +514,18 @@ const corporateEvents = [
     location: "Five-star Hotel",
     audience: "300+ employees",
     company: "Multinational Corporation",
-    imageUrl: "/images/anchoring/DSC01046.jpg",
+    imageUrl: "/images/anchoring/IMG-20250208-WA0013.jpg",
+
+  },
+  {
+    title: "Employee Recognition Gala",
+    description: "Hosted the annual awards ceremony celebrating employee achievements and milestones.",
+    date: "February 2023",
+    location: "Five-star Hotel",
+    audience: "300+ employees",
+    company: "Multinational Corporation",
+    imageUrl: "/images/anchoring/IMG-20250308-WA0063.jpg",
+
   },
   {
     title: "Client Appreciation Event",
@@ -445,6 +535,15 @@ const corporateEvents = [
     audience: "150+ VIP clients",
     company: "Financial Services Firm",
     imageUrl: "/images/anchoring/IMG-20250127-WA0007.jpg",
+  },
+  {
+    title: "Client Appreciation Event",
+    description: "Emceed an evening of networking, entertainment, and recognition for key clients.",
+    date: "November 2022",
+    location: "Exclusive Venue",
+    audience: "150+ VIP clients",
+    company: "Financial Services Firm",
+    imageUrl: "/images/anchoring/IMG-20250404-WA0028.jpg",
   },
 ]
 
